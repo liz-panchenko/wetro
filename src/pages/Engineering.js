@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const EngineeringPage = () => {
   return (
-    <div className="App">
+    <div className="page-wrapper">
       <div style={{ display: "flex", width: "100%", justify: "space-between" }}>
         <img src={logo} className="App-logo" alt="logo" />
         <div
@@ -20,8 +20,11 @@ export const EngineeringPage = () => {
             Home
           </Link>
           <Link to="/sales">Sales</Link>
+          <Link to="/cs">Customer Success</Link>
         </div>
       </div>
+
+      <h2>Engineering</h2>
 
       <iframe
         src="https://spinthewheel.app/ERbb1nxTMj"

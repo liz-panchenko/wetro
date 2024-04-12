@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const HomePage = () => {
   return (
-    <div className="App">
+    <div className="page-wrapper">
       <div style={{ display: "flex", width: "100%", justify: "start" }}>
         <img src={logo} className="App-logo" alt="logo" />
       </div>
@@ -15,6 +15,9 @@ export const HomePage = () => {
           </li>
           <li>
             <Link to="/sales">Sales</Link>
+          </li>
+          <li>
+            <Link to="/cs">Customer Success</Link>
           </li>
         </ul>
       </nav>

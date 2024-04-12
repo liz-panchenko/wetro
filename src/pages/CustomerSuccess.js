@@ -2,7 +2,7 @@ import logo from "../images/pebbleColour.svg";
 import "../App.css";
 import { Link } from "react-router-dom";
 
-export const SalesPage = () => {
+export const CustomerSuccess = () => {
   return (
     <div className="page-wrapper">
       <div style={{ display: "flex", width: "100%", justify: "space-between" }}>
@@ -22,20 +22,20 @@ export const SalesPage = () => {
           <Link to="/engineering" style={{ paddingRight: "12px" }}>
             Engineering
           </Link>
-          <Link to="/cs" style={{ paddingRight: "12px" }}>
-            Customer Success
+          <Link to="/sales" style={{ paddingRight: "12px" }}>
+            Sales
           </Link>
         </div>
       </div>
 
-      <h2>Sales</h2>
+      <h2>Customer Success</h2>
 
       <iframe
-        src="https://spinthewheel.app/szwy1ZSnbX"
+        src="https://spinthewheel.app/21vAR0mWua"
         width="520"
         height="520"
         style={{ border: "0px" }}
-        title={"Sales wheel selector"}
+        title={"CS wheel selector"}
       ></iframe>
     </div>
   );
