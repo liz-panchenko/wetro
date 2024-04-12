@@ -11,13 +11,16 @@ export const HomePage = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/engineering">Engineering</Link>
+            <Link to="/eng-prod">Engineering & Product</Link>
           </li>
           <li>
             <Link to="/sales">Sales</Link>
           </li>
           <li>
             <Link to="/cs">Customer Success</Link>
+          </li>
+          <li>
+            <Link to="/design-growth">Design & Growth</Link>
           </li>
         </ul>
       </nav>

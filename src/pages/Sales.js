@@ -11,16 +11,19 @@ export const SalesPage = () => {
           <Link to="/" style={{ paddingRight: "12px" }}>
             Home
           </Link>
-          <Link to="/engineering" style={{ paddingRight: "12px" }}>
-            Engineering
+          <Link to="/eng-prod" style={{ paddingRight: "12px" }}>
+            Eng&Prod
           </Link>
           <Link to="/cs" style={{ paddingRight: "12px" }}>
             Customer Success
           </Link>
+          <Link to="/design-growth" style={{ paddingRight: "12px" }}>
+            Design&Growth
+          </Link>
         </div>
       </div>
 
-      <h2>Sales</h2>
+      <h2>✨ Sales ✨</h2>
 
       <iframe
         src="https://spinthewheel.app/szwy1ZSnbX"

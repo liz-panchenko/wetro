@@ -11,16 +11,19 @@ export const CustomerSuccess = () => {
           <Link to="/" style={{ paddingRight: "12px" }}>
             Home
           </Link>
-          <Link to="/engineering" style={{ paddingRight: "12px" }}>
-            Engineering
+          <Link to="/eng-prod" style={{ paddingRight: "12px" }}>
+            Eng&Prod
           </Link>
           <Link to="/sales" style={{ paddingRight: "12px" }}>
             Sales
           </Link>
+          <Link to="/design-growth" style={{ paddingRight: "12px" }}>
+            Design&Growth
+          </Link>
         </div>
       </div>
 
-      <h2>Customer Success</h2>
+      <h2>✨ Customer Success ✨</h2>
 
       <iframe
         src="https://spinthewheel.app/21vAR0mWua"
