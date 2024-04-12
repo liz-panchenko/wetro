@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-image: "./images/checkout-bg.jpg";
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  border: 1px solid #f0f4ff;
+  border-radius: 12px;
+  margin: 12px auto;
+  height: fit-content;
+  width: fit-content;
+  padding-block: 12px;
+  padding-inline: 32px;
+  background-color: #f0f4ff;
+}
+
+a {
+  color: #2d5fe8;
+
+  font-weight: 700;
+  text-decoration: none;
+  font-size: large;
+}
