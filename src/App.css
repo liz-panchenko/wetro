@@ -22,8 +22,14 @@
   color: #61dafb;
 }
 
+h2 {
+  color: #0e206f;
+}
+
 ul {
   list-style-type: none;
+  margin-top: 3rem;
+  padding-left: 0;
 }
 
 li {
@@ -43,4 +49,17 @@ a {
   font-weight: 700;
   text-decoration: none;
   font-size: large;
+}
+
+.navLinks {
+  display: flex;
+  width: 100dvw;
+  justify-content: end;
+  align-items: center;
+  margin-right: 20px;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    margin-right: 0;
+    align-items: flex-end;
+  }
 }

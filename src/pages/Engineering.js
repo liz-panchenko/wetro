@@ -7,20 +7,16 @@ export const EngineeringPage = () => {
     <div className="page-wrapper">
       <div style={{ display: "flex", width: "100%", justify: "space-between" }}>
         <img src={logo} className="App-logo" alt="logo" />
-        <div
-          style={{
-            display: "flex",
-            width: "100%",
-            justifyContent: "end",
-            alignItems: "center",
-            marginRight: "20px",
-          }}
-        >
-          <Link to="/" style={{ paddingInline: "12px" }}>
+        <div className="navLinks">
+          <Link to="/" style={{ paddingRight: "12px" }}>
             Home
           </Link>
-          <Link to="/sales">Sales</Link>
-          <Link to="/cs">Customer Success</Link>
+          <Link to="/sales" style={{ paddingRight: "12px" }}>
+            Sales
+          </Link>
+          <Link to="/cs" style={{ paddingRight: "12px" }}>
+            Customer Success
+          </Link>
         </div>
       </div>
 
@@ -28,7 +24,7 @@ export const EngineeringPage = () => {
 
       <iframe
         src="https://spinthewheel.app/ERbb1nxTMj"
-        width="520"
+        width="100%"
         height="520"
         style={{ border: "0px" }}
         title={"Engineering wheel selector"}

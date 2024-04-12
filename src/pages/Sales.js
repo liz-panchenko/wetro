@@ -7,15 +7,7 @@ export const SalesPage = () => {
     <div className="page-wrapper">
       <div style={{ display: "flex", width: "100%", justify: "space-between" }}>
         <img src={logo} className="App-logo" alt="logo" />
-        <div
-          style={{
-            display: "flex",
-            width: "100%",
-            justifyContent: "end",
-            alignItems: "center",
-            marginRight: "20px",
-          }}
-        >
+        <div className="navLinks">
           <Link to="/" style={{ paddingRight: "12px" }}>
             Home
           </Link>
@@ -32,7 +24,7 @@ export const SalesPage = () => {
 
       <iframe
         src="https://spinthewheel.app/szwy1ZSnbX"
-        width="520"
+        width="100%"
         height="520"
         style={{ border: "0px" }}
         title={"Sales wheel selector"}
